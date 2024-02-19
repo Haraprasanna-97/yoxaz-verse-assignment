@@ -149,7 +149,7 @@ export default function Home() {
               <option value="All column">All column</option>
               {
                 Headings.map((item) => (
-                  <option value={item}>{item}</option>
+                  <option key={Headings.indexOf(item)} value={item}>{item}</option>
                 ))
               }
             </select>
