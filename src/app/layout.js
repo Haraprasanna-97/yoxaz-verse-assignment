@@ -11,11 +11,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-      <header class="text-gray-600 body-font">
-        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-          <span class="ml-3 text-xl">Orders</span>
-          <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 flex flex-wrap items-center text-base justify-center"></nav>
-          <button class="inline-flex items-center bg-blue-600 border-2 py-1 px-3 focus:outline-none hover:bg-blue-300 rounded-lg text-white text-sm mt-4 md:mt-0 uppercase border-slate-950">Create new</button>
+      <header className="text-gray-600 body-font">
+        <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <span className="ml-3 text-xl">Orders</span>
+          <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 flex flex-wrap items-center text-base justify-center"></nav>
+          <button className="inline-flex items-center bg-blue-600 border-2 py-1 px-3 focus:outline-none hover:bg-blue-300 rounded-lg text-white text-sm mt-4 md:mt-0 uppercase border-slate-950">Create new</button>
         </div>
       </header>
         {children}
